@@ -1,38 +1,33 @@
-.App {
+.city-selector {
+  font-family: Arial, sans-serif;
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdowns{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dropdown{
+  padding: 10px;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.result {
+  margin-top: 20px;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.highlight{
+  font-weight: bold;
+  font-size: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fade{
+  color: #888;
+  font-weight: lighter;
 }
